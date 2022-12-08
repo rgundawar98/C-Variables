@@ -20,8 +20,9 @@ namespace CSharpVariables
     {
         public static void StudentAge() 
         { 
-            int age = 30;
-            age = age + 30;
+            int age = 40;
+            //age = age + 30;
+            age= age + 40;  
             Console.WriteLine("Student age is " + age);
         } }
 }

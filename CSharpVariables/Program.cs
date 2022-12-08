@@ -7,8 +7,10 @@ namespace CSharpVariables
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            LocalVariable.StudentAge();
-            LocalVariables1.StudentAge();
+         
+
+            StaticVariables.salary = 24500;
+            Console.WriteLine("Employee name is " +StaticVariables.name + " and his minimum salary is " + StaticVariables.salary);
             Console.ReadLine();
         }
     }
